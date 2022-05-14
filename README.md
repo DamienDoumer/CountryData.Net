@@ -43,6 +43,11 @@ A simple cross platform offline .NET library for getting Global Country Data wit
        }
 ```
 
+### Get the emoji flag of a Country by Country Code
+```cSharp
+       var flag = helper.GetCountryEmojiFlag("GH");
+```
+
 
 ### Using lambda for custom querries
 #### `GetCountryData()` returns an `IEnumerable<Country>` which can be querried with Lambda for a more flexible usage.
